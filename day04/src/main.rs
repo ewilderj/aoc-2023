@@ -1,4 +1,4 @@
-use std::{collections::HashMap, str::CharIndices};
+use std::collections::HashMap;
 
 fn count_dupes(v: &Vec<u32>) -> usize {
     let mut counts = HashMap::new();
