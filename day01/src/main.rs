@@ -88,4 +88,7 @@ fn main() {
         .sum();
 
     println!("part2: {:?}", part2);
+
+    // part1: 54708
+    // part2: 54087
 }
