@@ -25,14 +25,12 @@ fn parse_game(l: &str) -> Game {
                 }
             }
         }
-        let r = Game {
+        Game {
             id,
             max_r,
             max_g,
             max_b,
-        };
-
-        return r;
+        }
     } else {
         panic!("Couldn't parse line");
     }
